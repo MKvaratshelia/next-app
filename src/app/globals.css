@@ -12,9 +12,11 @@ body {
 }
 
 body {
-    color: rgb(var(--foreground-rgb));
-    background: linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb)))
-        rgb(var(--background-start-rgb));
+    margin: 0;
+    padding: 0;
+
+    color: var(--black);
+    background: #f5f6f8;
 
     font-family: 'Noto Sans', sans-serif;
 }
@@ -23,4 +25,14 @@ a {
     text-decoration: none;
 
     color: inherit;
+}
+
+:root {
+    --black: #3b434e;
+    --white: #fff;
+    --primary: #7653fc;
+    --red: #de0000;
+    --green: #1dc37e;
+    --green-light: #c8f8e4;
+    --font-family: 'Noto Sans', sans-serif;
 }
