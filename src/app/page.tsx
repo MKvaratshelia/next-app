@@ -1,11 +1,12 @@
 'use client';
+import { Layout } from '@/Layout/Layout';
 import { Htag, P, Rating, Tag, Button } from '@/components';
 import { useState } from 'react';
 
 export default function Home() {
     const [rating, setRating] = useState<number>(2);
     return (
-        <>
+        <Layout>
             <Htag tag='h1'>Text</Htag>
             <Button appearance='primary' arrow='right'>
                 кнопка
@@ -29,6 +30,6 @@ export default function Home() {
                 tag
             </Tag>
             <Rating rating={rating} isEditable={true} setRating={setRating} />
-        </>
+        </Layout>
     );
 }

@@ -3,6 +3,7 @@
     "plugins": ["stylelint-order"],
     "rules": {
         "selector-class-pattern": "^.*$",
+        "media-feature-range-notation": "prefix",
         "declaration-block-no-redundant-longhand-properties": [
             true,
             {
