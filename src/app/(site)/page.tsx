@@ -5,7 +5,7 @@ export const metadata: Metadata = {
     title: 'ComputedMeta',
 };
 
-export default async function Home() {
+export default function Home() {
     return (
         <Layout>
             <h1>hello</h1>
